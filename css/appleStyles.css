@@ -127,3 +127,13 @@ a:focus, a:active {
   margin-top: 10px;
   width: 100px;
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article{
+  flex: 200px;  
+  flex: 1;
+}
