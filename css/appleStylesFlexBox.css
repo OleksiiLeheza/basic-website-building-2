@@ -8,8 +8,9 @@ a {
   color: inherit;
 }
 
-a:focus, a:active {
-  outline: none; 
+a:focus,
+a:active {
+  outline: none;
 }
 .body {
   background: #fafafa;
@@ -89,16 +90,16 @@ a:focus, a:active {
   margin-left: 5%;
   padding: 20px 2.5%;
   width: 16%;
-  text-align: center; 
+  text-align: center;
   float: left;
-} 
+}
 
 .img {
   margin-top: 20px;
-  background-color: transparent; 
+  background-color: transparent;
   background: #f8f9fa;
-  padding: 15px 2.5%; 
-  border: 1px solid #333;    
+  padding: 15px 2.5%;
+  border: 1px solid #333;
 }
 
 .menu {
@@ -116,7 +117,7 @@ a:focus, a:active {
 }
 .round {
   border-radius: 5%;
-} 
+}
 
 #apple_header {
   margin-top: 15px;
@@ -128,5 +129,17 @@ a:focus, a:active {
   width: 100px;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+article {
+  flex: 200px;
+  flex: 1;
+}
 
+div {
+  align-items: center;
+  justify-content: space-around;
+}
