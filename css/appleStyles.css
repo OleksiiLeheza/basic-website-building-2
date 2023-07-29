@@ -137,3 +137,8 @@ article{
   flex: 200px;  
   flex: 1;
 }
+
+div { 
+  align-items: center;
+  justify-content: space-around;
+}
